@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sophie Ngo - IT Student & Business Analyst Portfolio">
+    <title>Sophie Ngo | Portfolio</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css?v=32">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header id="header" class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container-fluid px-4 px-lg-5 py-3">
+            <button class="navbar-brand btn btn-link text-primary fw-bold fs-4 text-decoration-none"
+                onclick="navigateTo('projects')">
+                Sophie Ngo
+            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <nav class="navbar-nav gap-3">
+                    <button class="nav-link btn btn-link active" id="nav-projects"
+                        onclick="navigateTo('projects')">Projects</button>
+                    <button class="nav-link btn btn-link" id="nav-profile"
+                        onclick="navigateTo('profile')">Profile</button>
+                    <button class="nav-link btn btn-link" id="nav-cv" onclick="navigateTo('cv')">CV</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Projects Page -->
+        <section id="page-projects" class="page-section active">
+            <div class="bg-light border-bottom py-5">
+                <div class="container px-4 px-lg-5">
+                    <h1 class="display-4 fw-bold text-dark mb-4">Projects & Case Studies</h1>
+                    <p class="lead text-muted col-lg-9">
+                        A curated collection of my work spanning software development, data visualization, and
+                        automation.
+                        Each project represents a unique challenge and learning opportunity in my journey as a
+                        technology professional.
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-light py-5">
+                <div class="container px-4 px-lg-5">
+                    <div class="projects-list">
+                        <!-- Project 1 -->
+                        <div class="row align-items-center mb-5 pb-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <div class="laptop-mockup laptop-mockup-large">
+                                    <div class="laptop-screen">
+                                        <!-- Bootstrap Carousel for FeedbackLense -->
+                                        <div id="feedbacklenseCarousel" class="carousel slide" data-bs-ride="carousel"
+                                            data-bs-interval="3000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/FL/1_signin.jpeg" alt="Sign In">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/2_signup.jpeg" alt="Sign Up">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/3_createsurvey.jpg" alt="Create Survey">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/3.1_dashboard.png" alt="Dashboard">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/3.2_dashboard1.png" alt="Dashboard View">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/4_surveycreation.jpg" alt="Survey Creation">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/5_invitation.jpeg" alt="Invitation">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/5_surveyinvitation.jpg" alt="Survey Invitation">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/7_analytics1.png" alt="Analytics 1">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/7_analytics2.png" alt="Analytics 2">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/7.1_analytics3.png" alt="Analytics 3">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/10_report1.png" alt="Report 1">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/12_report3.png" alt="Report 3">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/13_report4.png" alt="Report 4">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/FL/15_report6.png" alt="Report 6">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#feedbacklenseCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#feedbacklenseCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card shadow-lg border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex justify-content-between align-items-start mb-3">
+                                            <div>
+                                                <div class="d-flex align-items-center gap-2 mb-2">
+                                                    <img src="images/FL/logo.png" alt="FeedbackLense Logo"
+                                                        style="width: 32px; height: 32px; object-fit: contain;">
+                                                    <h2 class="h4 text-primary mb-0">FeedbackLense – Internal Survey
+                                                        System</h2>
+                                                </div>
+                                                <p class="text-muted">Full-Stack Development Project</p>
+                                            </div>
+                                            <a href="https://github.com/sophiengo/feedbacklense" target="_blank"
+                                                class="btn btn-outline-primary btn-sm">
+                                                <i class="bi bi-github"></i>
+                                            </a>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h5 class="fw-semibold">Overview</h5>
+                                            <p class="text-muted">Led a student group to build a full-stack internal survey analytics platform for survey creation, survey invitation, and transforms collected feedback into clear, actionable insights. The platform integrates AI sentiment analysis, keyword extraction, and PDF reporting.</p>
+                                        </div>
+
+                                        <div class="bg-light p-3 rounded mb-3">
+                                            <h6 class="fw-semibold mb-2">Outcome</h6>
+                                            <p class="text-muted mb-0">Improved survey processing speed and analysis
+                                                clarity through real-time dashboards and 400+ automated tests.</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h6 class="fw-semibold mb-2">Tech Stack:</h6>
+                                            
+                                            <div class="mb-2">
+                                                <p class="small text-muted mb-1"><strong>Backend:</strong></p>
+                                                <div class="d-flex flex-wrap gap-2 mb-2">
+                                                    <span class="badge bg-success-subtle text-success-emphasis border border-success">Node.js</span>
+                                                    <span class="badge bg-secondary-subtle text-secondary-emphasis border border-secondary">Express.js</span>
+                                                    <span class="badge bg-success-subtle text-success-emphasis border border-success">MongoDB</span>
+                                                    <span class="badge bg-info-subtle text-info-emphasis border border-info">Mongoose</span>
+                                                    <span class="badge bg-warning-subtle text-warning-emphasis border border-warning">JWT</span>
+                                                    <span class="badge bg-secondary-subtle text-secondary-emphasis border border-secondary">bcrypt</span>
+                                                    <span class="badge bg-primary-subtle text-primary-emphasis border border-primary">Multer</span>
+                                                    <span class="badge bg-success-subtle text-success-emphasis border border-success">Natural (NLP)</span>
+                                                    <span class="badge bg-danger-subtle text-danger-emphasis border border-danger">Puppeteer</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-2">
+                                                <p class="small text-muted mb-1"><strong>Frontend:</strong></p>
+                                                <div class="d-flex flex-wrap gap-2 mb-2">
+                                                    <span class="badge bg-warning-subtle text-warning-emphasis border border-warning">JavaScript ES6</span>
+                                                    <span class="badge bg-info-subtle text-info-emphasis border border-info">Materialize CSS</span>
+                                                    <span class="badge bg-primary-subtle text-primary-emphasis border border-primary">Font Awesome</span>
+                                                    <span class="badge bg-success-subtle text-success-emphasis border border-success">Papa Parse</span>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <p class="small text-muted mb-1"><strong>Testing & Dev:</strong></p>
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <span class="badge bg-danger-subtle text-danger-emphasis border border-danger">Mocha</span>
+                                                    <span class="badge bg-danger-subtle text-danger-emphasis border border-danger">Chai</span>
+                                                    <span class="badge bg-danger-subtle text-danger-emphasis border border-danger">Supertest</span>
+                                                    <span class="badge bg-danger-subtle text-danger-emphasis border border-danger">Playwright</span>
+                                                    <span class="badge bg-secondary-subtle text-secondary-emphasis border border-secondary">Nodemon</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Project 2 -->
+                        <div class="row align-items-center mb-5 pb-5">
+                            <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                                <div class="laptop-mockup laptop-mockup-large">
+                                    <div class="laptop-screen">
+                                        <!-- Bootstrap Carousel for Intrusion Detection -->
+                                        <div id="intrusionDetectionCarousel" class="carousel slide" data-bs-ride="carousel"
+                                            data-bs-interval="3000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/ML/figure1.jpeg" alt="Model Performance Comparison">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/ML/figure2.jpeg" alt="Confusion Matrix">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/ML/figure3.jpeg" alt="ROC Curves">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/ML/figure4.jpeg" alt="Feature Importance">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/ML/figure5.jpeg" alt="Training Metrics">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/ML/figure6.jpeg" alt="Attack Classification Results">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#intrusionDetectionCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#intrusionDetectionCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="card shadow-lg border-0">
+                                    <div class="card-body p-4">
+                                        <div class="mb-3">
+                                            <div class="d-flex align-items-center gap-2 mb-2">
+                                                <span class="fs-2">🧩</span>
+                                                <h2 class="h4 text-primary mb-0">Intrusion Detection – Comparative ML
+                                                    Study</h2>
+                                            </div>
+                                            <p class="text-muted">Machine Learning Research Project</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h5 class="fw-semibold">Overview</h5>
+                                            <p class="text-muted">A comprehensive cybersecurity research project addressing the critical need for intelligent network threat detection. Developed and evaluated a machine learning pipeline comparing 7 classification algorithms (Random Forest, DNN, SVM, Naive Bayes, Decision Tree, Logistic Regression, and KNN) to identify malicious network activities and potential security breaches using the NSL-KDD and IoT-specific datasets.</p>
+                                        </div>
+
+                                        <div class="bg-light p-3 rounded mb-3">
+                                            <h6 class="fw-semibold mb-2">Key Security Contributions</h6>
+                                            <ul class="text-muted mb-0 small">
+                                                <li><strong>90% detection accuracy</strong> using Random Forest and DNN models for identifying DoS, Probe, R2L, and U2R attacks</li>
+                                                <li>Evaluated model performance against <strong>multi-class attack scenarios</strong> including modern IoT-based threats</li>
+                                                <li>Optimized false positive rates to minimize security alert fatigue in production environments</li>
+                                                <li>Demonstrated practical applications for <strong>real-time network monitoring</strong> and threat intelligence</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <p class="text-muted fst-italic mb-2">Built with:</p>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                <span
+                                                    class="badge bg-primary-subtle text-primary-emphasis border border-primary">Python</span>
+                                                <span
+                                                    class="badge bg-warning-subtle text-warning-emphasis border border-warning">Scikit-learn</span>
+                                                <span class="badge"
+                                                    style="background-color: #f3e5f5; color: #7b1fa2; border: 1px solid #e1bee7;">Pandas</span>
+                                                <span class="badge"
+                                                    style="background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9;">NumPy</span>
+                                                <span class="badge"
+                                                    style="background-color: #e8eaf6; color: #3f51b5; border: 1px solid #c5cae9;">Matplotlib</span>
+                                                <span class="badge"
+                                                    style="background-color: #fff3e0; color: #e65100; border: 1px solid #ffe0b2;">TensorFlow/Keras</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="border-top pt-3">
+                                            <p class="text-muted small fw-semibold mb-2">
+                                                <i class="bi bi-file-earmark-arrow-down me-1"></i> Project Files:
+                                            </p>
+                                            <div class="d-flex flex-column gap-2">
+                                                <a href="projects/MLSecurity/000-document.pdf" 
+                                                   class="btn btn-sm btn-outline-primary" 
+                                                   download
+                                                   target="_blank">
+                                                    <i class="bi bi-file-earmark-pdf me-2"></i>
+                                                    Download Research Report (PDF)
+                                                </a>
+                                                <a href="projects/MLSecurity/001-code.ipynb" 
+                                                   class="btn btn-sm btn-outline-secondary" 
+                                                   download
+                                                   target="_blank">
+                                                    <i class="bi bi-journal-code me-2"></i>
+                                                    Download Jupyter Notebook (.ipynb)
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="row align-items-center mb-5 pb-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <div class="laptop-mockup laptop-mockup-large">
+                                    <div class="laptop-screen">
+                                        <!-- Bootstrap Carousel for Lua Vang Website -->
+                                        <div id="luaVangCarousel" class="carousel slide" data-bs-ride="carousel"
+                                            data-bs-interval="3000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/LV/1_homepage.jpeg" alt="Homepage - Hero Section">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/LV/2_homepage.jpeg" alt="Homepage - About Section">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/LV/3_homepage.jpeg" alt="Homepage - Products Section">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/LV/4_gallery.jpeg" alt="Gallery Page">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/LV/5_contact.jpeg" alt="Contact Page">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#luaVangCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#luaVangCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card shadow-lg border-0">
+                                    <div class="card-body p-4">
+                                        <div class="d-flex justify-content-between align-items-start mb-3">
+                                            <div>
+                                                <div class="d-flex align-items-center gap-2 mb-2">
+                                                    <img src="images/LV/Lv_logo.png" alt="Lua Vang Logo"
+                                                        style="width: 32px; height: 32px; object-fit: contain;">
+                                                    <h2 class="h4 text-primary mb-0">Lua Vang – Business Website</h2>
+                                                </div>
+                                                <p class="text-muted">Web Development Project</p>
+                                            </div>
+                                            <a href="https://congtyluavang.com/" target="_blank"
+                                                class="btn btn-outline-primary btn-sm" title="Visit Live Website">
+                                                <i class="bi bi-globe"></i>
+                                            </a>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h5 class="fw-semibold">Overview</h5>
+                                            <p class="text-muted">Developed a comprehensive digital presence for Lua Vang Company Ltd, a leading rice seed supplier in Southern Vietnam serving 100+ business partners and millions of farmers. Built a fully responsive, bilingual website showcasing their agricultural products, company heritage, and community connections. The platform features an interactive product gallery, dynamic news section, and integrated contact system to bridge Vietnamese farms with global markets.</p>
+                                        </div>
+
+                                        <div class="bg-light p-3 rounded mb-3">
+                                            <h6 class="fw-semibold mb-2">Key Features & Impact</h6>
+                                            <ul class="text-muted mb-0 small">
+                                                <li><strong>Mobile-first responsive design</strong> ensuring seamless experience across all devices</li>
+                                                <li><strong>SEO optimization</strong> improving online visibility and organic reach</li>
+                                                <li>Interactive product showcase with <strong>detailed specifications</strong> for different rice varieties</li>
+                                                <li><strong>Modern UI/UX</strong> with smooth animations and intuitive navigation</li>
+                                                <li>Optimized page load performance and <strong>cross-browser compatibility</strong></li>
+                                            </ul>
+                                        </div>
+
+                                        <div>
+                                            <p class="text-muted fst-italic mb-2">Built with:</p>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                <span
+                                                    class="badge bg-warning-subtle text-warning-emphasis border border-warning">HTML5</span>
+                                                <span
+                                                    class="badge bg-primary-subtle text-primary-emphasis border border-primary">CSS3</span>
+                                                <span
+                                                    class="badge bg-warning-subtle text-warning-emphasis border border-warning">JavaScript</span>
+                                                <span
+                                                    class="badge bg-primary-subtle text-primary-emphasis border border-primary">Bootstrap 5</span>
+                                                <span
+                                                    class="badge bg-success-subtle text-success-emphasis border border-success">Node.js</span>
+                                                <span
+                                                    class="badge bg-secondary-subtle text-secondary-emphasis border border-secondary">Express</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="row align-items-center mb-5 pb-5">
+                            <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                                <div class="laptop-mockup laptop-mockup-large">
+                                    <div class="laptop-screen">
+                                        <img src="images/DC/HeartcareAI.jpeg"
+                                            alt="HeartCare AI Platform Proposal" class="img-fluid">
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="card shadow-lg border-0">
+                                    <div class="card-body p-4">
+                                        <div class="mb-3">
+                                            <div class="d-flex align-items-center gap-2 mb-2">
+                                                <img src="images/DC/heartcarelogo.png" alt="HeartCare AI Logo"
+                                                    style="width: 32px; height: 32px; object-fit: contain;">
+                                                <h2 class="h4 text-primary mb-0">HeartCare AI – Cardiac Arrhythmia Detection Platform</h2>
+                                            </div>
+                                            <p class="text-muted">Data Engineering & Healthcare AI Project</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h5 class="fw-semibold">Overview</h5>
+                                            <p class="text-muted">Designed a comprehensive proposal for an AI-powered heartbeat detection platform using Deep Neural Networks. Developed an automated Python data pipeline processing 650k+ ECG healthcare records, transforming raw cardiac data into actionable insights for real-time arrhythmia detection. The project integrates data engineering, machine learning, and healthcare analytics to improve early intervention and patient outcomes.</p>
+                                        </div>
+
+                                        <div class="bg-light p-3 rounded mb-3">
+                                            <h6 class="fw-semibold mb-2">Key Achievements & Impact</h6>
+                                            <ul class="text-muted mb-0 small">
+                                                <li><strong>Processed 650,000+ ECG records</strong> with automated data cleaning and validation pipelines</li>
+                                                <li>Designed <strong>wearable device integration</strong> concept for continuous cardiac surveillance</li>
+                                                <li><strong>Improved data accuracy</strong> through systematic preprocessing and quality checks</li>
+                                                <li>Created <strong>professional documentation</strong> including technical reports and presentation slides</li>
+                                                <li>Reduced manual processing time by <strong>implementing automation workflows</strong></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <p class="text-muted fst-italic mb-2">Built with:</p>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                <span
+                                                    class="badge bg-primary-subtle text-primary-emphasis border border-primary">Python</span>
+                                                <span class="badge"
+                                                    style="background-color: #f3e5f5; color: #7b1fa2; border: 1px solid #e1bee7;">Pandas</span>
+                                                <span class="badge"
+                                                    style="background-color: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9;">NumPy</span>
+                                                <span class="badge"
+                                                    style="background-color: #fce4ec; color: #c2185b; border: 1px solid #f8bbd0;">Canva</span>
+                                                <span class="badge"
+                                                    style="background-color: #e8eaf6; color: #3f51b5; border: 1px solid #c5cae9;">LaTeX (Overleaf)</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="border-top pt-3">
+                                            <p class="text-muted small fw-semibold mb-2">
+                                                <i class="bi bi-file-earmark-arrow-down me-1"></i> Project Files:
+                                            </p>
+                                            <div class="d-flex flex-column gap-2">
+                                                <a href="projects/Heartbeat/Final ECG Discovery Project.pdf" 
+                                                   class="btn btn-sm btn-outline-primary" 
+                                                   download
+                                                   target="_blank">
+                                                    <i class="bi bi-file-earmark-slides me-2"></i>
+                                                    Download Slide Report (PDF)
+                                                </a>
+                                                <a href="projects/Heartbeat/Final_ECG_Discovery_Project_Report.pdf" 
+                                                   class="btn btn-sm btn-outline-secondary" 
+                                                   download
+                                                   target="_blank">
+                                                    <i class="bi bi-file-earmark-text me-2"></i>
+                                                    Download Full Report (PDF)
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="row align-items-center mb-5">
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <div class="laptop-mockup laptop-mockup-large">
+                                    <div class="laptop-screen">
+                                        <!-- Bootstrap Carousel for UNDP Data Visualization -->
+                                        <div id="undpVisualizationCarousel" class="carousel slide" data-bs-ride="carousel"
+                                            data-bs-interval="3000">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/DV/image1.jpeg" alt="UNDP Dashboard Overview">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/DV/figure6.jpeg" alt="GDP Analysis">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/DV/figure7.jpeg" alt="HDI Indicators">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/DV/figure8.jpeg" alt="CO2 Emissions">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/DV/figure9.jpeg" alt="Country Comparisons">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/DV/figure10.jpeg" alt="Sustainability Metrics">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#undpVisualizationCarousel" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#undpVisualizationCarousel" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="laptop-base"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card shadow-lg border-0">
+                                    <div class="card-body p-4">
+                                        <div class="mb-3">
+                                            <div class="d-flex align-items-center gap-2 mb-2">
+                                                <span class="fs-2">🌍</span>
+                                                <h2 class="h4 text-primary mb-0">Multidimensional Data Visualization
+                                                    (UNDP Dataset)</h2>
+                                            </div>
+                                            <p class="text-muted">Data Visualization Project</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <h5 class="fw-semibold">Overview</h5>
+                                            <p class="text-muted">Developed an interactive Tableau dashboard visualizing
+                                                GDP, HDI, and CO₂ emissions across 100+ countries.</p>
+                                        </div>
+
+                                        <div class="bg-light p-3 rounded mb-3">
+                                            <h6 class="fw-semibold mb-2">Outcome</h6>
+                                            <p class="text-muted mb-0">Enabled comparative insights into sustainability
+                                                indicators.</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <p class="text-muted fst-italic mb-2">Built with:</p>
+                                            <div class="d-flex flex-wrap gap-2">
+                                                <span class="badge"
+                                                    style="background-color: #e3f2fd; color: #1976d2; border: 1px solid #bbdefb;">Tableau</span>
+                                                <span
+                                                    class="badge bg-warning-subtle text-warning-emphasis border border-warning">Power
+                                                    BI</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="border-top pt-3">
+                                            <p class="text-muted small fw-semibold mb-2">
+                                                <i class="bi bi-file-earmark-arrow-down me-1"></i> Project Files:
+                                            </p>
+                                            <div class="d-flex flex-column gap-2">
+                                                <a href="projects/Visualization/Project.pdf" 
+                                                   class="btn btn-sm btn-outline-primary" 
+                                                   download
+                                                   target="_blank">
+                                                    <i class="bi bi-file-earmark-pdf me-2"></i>
+                                                    Download Project Report (PDF)
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Page -->
+        <section id="page-profile" class="page-section bg-light py-5">
+            <div class="container px-4 px-lg-5">
+                <div class="row g-4">
+                    <!-- Left Sidebar -->
+                    <div class="col-lg-4">
+                        <div class="card shadow border-0 sticky-top" style="top: 100px;">
+                            <div class="card-body text-center p-4">
+                                <!-- Profile Image -->
+                                <img src="images/profile.jpg" alt="Sophie Ngo" 
+                                     class="rounded-circle mx-auto mb-4" 
+                                     style="width: 180px; height: 180px; object-fit: cover; box-shadow: 0 0 0 8px rgba(0, 74, 159, 0.2), 0 20px 25px rgba(0,0,0,0.15);">
+
+                                <h2 class="h4 fw-bold mb-2">Sophie Ngo</h2>
+                                <p class="text-muted mb-2">MIT Student at Deakin University</p>
+                                <p class="text-secondary small mb-4">Melbourne, Australia</p>
+
+                                <!-- Quote -->
+                                <div class="alert alert-primary border-start border-4 border-primary mb-4">
+                                    <p class="fst-italic mb-0 small">"Inventing with empathy, logic, and design."</p>
+                                </div>
+
+                                <!-- Contact Buttons -->
+                                <div class="d-grid gap-2 mb-4">
+                                    <a href="https://www.linkedin.com/in/callmesoffie/" target="_blank"
+                                        class="btn btn-outline-primary">
+                                        <i class="bi bi-linkedin me-2"></i> LinkedIn
+                                    </a>
+                                    <a href="mailto:sophiengo1811@gmail.com" class="btn btn-outline-primary">
+                                        <i class="bi bi-envelope me-2"></i> Email
+                                    </a>
+                                    <a href="https://github.com/callmesoffie1811" target="_blank"
+                                        class="btn btn-outline-primary">
+                                        <i class="bi bi-github me-2"></i> GitHub
+                                    </a>
+                                </div>
+
+                                <!-- Stat Badges -->
+                                <div class="d-grid gap-2">
+                                    <div class="badge-stat">
+                                        <span class="me-2">🧩</span> 4 International Industry Experiences
+                                    </div>
+                                    <div class="badge-stat">
+                                        <span class="me-2">💻</span> 45+ Tools & Technologies
+                                    </div>
+                                    <div class="badge-stat">
+                                        <span class="me-2">📊</span> 5 Published Projects
+                                    </div>
+                                    <div class="badge-stat">
+                                        <span class="me-2">🎓</span> Master's in IT (In Progress)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Content -->
+                    <div class="col-lg-8">
+                        <!-- About Me -->
+                        <section class="mb-5">
+                            <h1 class="display-5 fw-bold mb-4">About Me</h1>
+                            <div class="card shadow border-0">
+                                <div class="card-body p-4">
+                                    <p class="text-muted mb-0">
+
+                                        Career changer with a background in customer and data-focused roles, previously working with global organisations including Citi, HSBC, and Global Sources. Developed a deep understanding of user needs and business processes, applying analytical and communication skills to practical IT delivery.
+<br>
+<br>
+                                        Skilled in Microsoft 365 (Excel, Teams, SharePoint), IT and programming tools (HTML, CSS, Java, and
+modern frameworks), systems support (ServiceNow), and data visualisation (Power BI, Tableau, SQL). Adept
+at documenting technical processes, collaborating with cross-functional teams, and transforming complex data
+into actionable insights that drive performance and continuous improvement.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Featured Projects -->
+                        <section class="mb-5">
+                            <h2 class="h3 fw-bold mb-2">What I've Built</h2>
+                            <p class="text-muted mb-4">Key projects demonstrating technical leadership and impact</p>
+
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="text-center py-5" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+                                            <img src="images/FL/logo.png" alt="FeedbackLense" style="width: 60px; height: 60px; object-fit: contain;">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title small fw-bold">FeedbackLense – AI Survey Platform</h5>
+                                            <p class="card-text small text-muted">Team Lead, increased efficiency by 25%</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="text-center py-5" style="background: linear-gradient(135deg, #f1f3f5, #e3e7ed);">
+                                            <span class="fs-1">🧩</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title small fw-bold">Intrusion Detection – ML Study</h5>
+                                            <p class="card-text small text-muted">90% accuracy with cybersecurity models</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="text-center py-5" style="background: linear-gradient(135deg, #f0f4f8, #dde5ed);">
+                                            <img src="images/LV/Lv_logo.png" alt="Lua Vang" style="width: 60px; height: 60px; object-fit: contain;">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title small fw-bold">Lua Vang – Business Website</h5>
+                                            <p class="card-text small text-muted">Improved engagement via UX/UI</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="text-center" style="background: linear-gradient(135deg, #fce7f3, #f9d5e8); padding: 2.5rem 0;">
+                                            <img src="images/DC/heartcarelogo.png" alt="HeartCare AI" style="width: 60px; height: 60px; object-fit: contain;">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title small fw-bold">HeartCare AI – ECG Detection</h5>
+                                            <p class="card-text small text-muted">650k+ healthcare records pipeline</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="text-center" style="background: linear-gradient(135deg, #dbeafe, #bfdbfe); padding: 2.5rem 0;">
+                                            <span class="fs-1">🌍</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title small fw-bold">UNDP Data Visualization</h5>
+                                            <p class="card-text small text-muted">100+ countries sustainability insights</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Beyond the Screen -->
+                        <section class="mb-5">
+                            <h2 class="h3 fw-bold mb-2">Beyond the Screen</h2>
+                            <p class="text-muted mb-4">Community engagement, leadership, and making a positive impact
+                            </p>
+
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="position-relative">
+                                            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400&h=300&fit=crop"
+                                                class="card-img-top" alt="DUSA Event Support">
+                                            <span
+                                                class="position-absolute top-0 start-0 m-2 badge bg-white text-dark fs-6">🎓</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title fw-bold">Event Support – DUSA</h5>
+                                            <p class="text-muted small mb-2">Deakin University Student Association</p>
+                                            <p class="card-text text-muted small">Assisted in planning and running campus events, supported student engagement activities, and helped new students connect with university clubs and resources while contributing to a welcoming and inclusive campus community.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="position-relative">
+                                            <img src="images/Volunteer/ASEAN++.jpg"
+                                                class="card-img-top" alt="ASEAN++ BRIDGE" style="object-fit: cover; height: 200px;">
+                                            <span
+                                                class="position-absolute top-0 start-0 m-2 badge bg-white text-dark fs-6">🌍</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title fw-bold">Country Representative – ASEAN++ BRIDGE</h5>
+                                            <p class="text-muted small mb-2">HAWEE HCMC Business Women Association • Jul 2022 - Sep 2022</p>
+                                            <p class="card-text text-muted small">Represented Malaysia in economic empowerment and sustainability leadership forum, working with great people and enthusiasts.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="position-relative">
+                                            <img src="images/Volunteer/AUG.jpg"
+                                                class="card-img-top" alt="AUG Global Network" style="object-fit: cover; height: 200px;">
+                                            <span
+                                                class="position-absolute top-0 start-0 m-2 badge bg-white text-dark fs-6">📚</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title fw-bold">Event Assistant – AUG Global Network</h5>
+                                            <p class="text-muted small mb-2">Education • Aug 2025</p>
+                                            <p class="card-text text-muted small">Supported event operations by assisting with guest registration for visa consultations, coordinating event flow, and ensuring smooth on-site operations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="position-relative">
+                                            <img src="images/Volunteer/CEO-Cookoff.jpg"
+                                                class="card-img-top" alt="VietHarvest CEO Cookoff" style="object-fit: cover; height: 200px;">
+                                            <span
+                                                class="position-absolute top-0 start-0 m-2 badge bg-white text-dark fs-6">🌱</span>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title fw-bold">Event Assistant – VietHarvest</h5>
+                                            <p class="text-muted small mb-2">Environment • Jun 2023</p>
+                                            <p class="card-text text-muted small">Supported CEO Cookoff fundraising event for food rescue on World Environment Day, managing event set-up, guest greeting, and on-site assistance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Core Values -->
+                        <section class="mb-5">
+                            <h2 class="h3 fw-bold mb-2">Core Values & Strengths</h2>
+                            <p class="text-muted mb-4">Principles that guide my work, backed by real-world experience
+                            </p>
+
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start gap-3">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-heart-fill"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">Integrity</h6>
+                                                    <p class="small text-muted mb-0">Recognised for reliability at HSBC
+                                                        and Citi</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start gap-3">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-people-fill"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">Collaboration</h6>
+                                                    <p class="small text-muted mb-0">Cross-country teamwork at
+                                                        SkillPixel</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start gap-3">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-lightbulb-fill"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">Curiosity</h6>
+                                                    <p class="small text-muted mb-0">Constantly learning new IT tools
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start gap-3">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-graph-up-arrow"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">Adaptability</h6>
+                                                    <p class="small text-muted mb-0">Excelled in diverse roles</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 shadow-sm border-0 hover-lift">
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-start gap-3">
+                                                <div class="icon-box">
+                                                    <i class="bi bi-book-fill"></i>
+                                                </div>
+                                                <div>
+                                                    <h6 class="fw-bold mb-1">Continuous Learning</h6>
+                                                    <p class="small text-muted mb-0">Balancing study and internship</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Tools & Skills -->
+                        <section class="mb-5">
+                            <h2 class="h3 fw-bold mb-2">What I Work With</h2>
+                            <p class="text-muted mb-4">Tools and technologies organized by expertise area</p>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Technical & Office Tools</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">📊 Microsoft 365 (Excel, Word, PowerPoint)</span>
+                                        <span class="tool-badge">💬 Teams & SharePoint</span>
+                                        <span class="tool-badge">📧 Outlook</span>
+                                        <span class="tool-badge">⚙️ ServiceNow</span>
+                                        <span class="tool-badge">💻 Windows 11</span>
+                                        <span class="tool-badge">🍎 macOS</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Programming & Development</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">🐍 Python</span>
+                                        <span class="tool-badge">🗄️ SQL</span>
+                                        <span class="tool-badge">📊 R</span>
+                                        <span class="tool-badge">💎 C#</span>
+                                        <span class="tool-badge">⚡ .NET</span>
+                                        <span class="tool-badge">☕ Java</span>
+                                        <span class="tool-badge">🌐 HTML5</span>
+                                        <span class="tool-badge">🎨 CSS3</span>
+                                        <span class="tool-badge">⚡ JavaScript</span>
+                                        <span class="tool-badge">🎭 Playwright</span>
+                                        <span class="tool-badge">🔧 Git & GitHub</span>
+                                        <span class="tool-badge">🔄 Jenkins</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Data & Analytics</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">📈 Power BI</span>
+                                        <span class="tool-badge">📉 Tableau</span>
+                                        <span class="tool-badge">📊 Excel (Advanced)</span>
+                                        <span class="tool-badge">🐼 Pandas</span>
+                                        <span class="tool-badge">🔢 NumPy</span>
+                                        <span class="tool-badge">🔍 Power Query</span>
+                                        <span class="tool-badge">📐 Data Modeling (ERD)</span>
+                                        <span class="tool-badge">📊 Statistical Analysis</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Business Analysis & Process Improvement</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">🤝 Stakeholder Engagement</span>
+                                        <span class="tool-badge">📋 Requirements Gathering</span>
+                                        <span class="tool-badge">🔄 Process Mapping (BPMN)</span>
+                                        <span class="tool-badge">📊 SWOT Analysis</span>
+                                        <span class="tool-badge">🔍 GAP Analysis</span>
+                                        <span class="tool-badge">🎯 Root Cause Analysis</span>
+                                        <span class="tool-badge">📝 Documentation</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Design & Collaboration</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">🎨 Figma</span>
+                                        <span class="tool-badge">📐 Lucidchart</span>
+                                        <span class="tool-badge">🖼️ Miro</span>
+                                        <span class="tool-badge">📋 Jira</span>
+                                        <span class="tool-badge">📝 Confluence</span>
+                                        <span class="tool-badge">🗂️ Trello</span>
+                                        <span class="tool-badge">📊 Microsoft Visio</span>
+                                        <span class="tool-badge">💻 VS Code</span>
+                                        <span class="tool-badge">📓 Jupyter Notebooks</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">AI & Modern Tools</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">🤖 ChatGPT</span>
+                                        <span class="tool-badge">✨ Claude AI</span>
+                                        <span class="tool-badge">🧠 GitHub Copilot</span>
+                                        <span class="tool-badge">🎯 Cursor AI</span>
+                                        <span class="tool-badge">🔬 TensorFlow/Keras</span>
+                                        <span class="tool-badge">🧪 Scikit-learn</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow-sm border-0 mb-3">
+                                <div class="card-body">
+                                    <h5 class="fw-bold mb-3">Professional Strengths</h5>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="tool-badge">💬 Communication</span>
+                                        <span class="tool-badge">🧩 Problem Solving</span>
+                                        <span class="tool-badge">🤝 Stakeholder Support</span>
+                                        <span class="tool-badge">👥 Collaboration</span>
+                                        <span class="tool-badge">🔍 Attention to Detail</span>
+                                        <span class="tool-badge">🔒 Data Security Awareness</span>
+                                        <span class="tool-badge">📚 Continuous Learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- CTA -->
+                        <section>
+                            <div class="card bg-gradient-primary text-white shadow-lg border-0">
+                                <div class="card-body p-5 text-center">
+                                    <h2 class="h3 fw-bold mb-3">Let's build something meaningful together.</h2>
+                                    <p class="mb-4">
+                                        I'm actively seeking opportunities to contribute to innovative teams and
+                                        projects.
+                                        Whether it's business analysis, data visualization, or IT solutions—let's
+                                        connect.
+                                    </p>
+                                    <a href="mailto:sophiengo1811@gmail.com" class="btn btn-light btn-lg">
+                                        <i class="bi bi-envelope me-2"></i> Get in Touch
+                                    </a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Page -->
+        <section id="page-cv" class="page-section bg-light py-5">
+            <div class="container px-4 py-5" style="max-width: 900px;">
+                <div class="text-center mb-5">
+                    <h1 class="display-4 fw-bold mb-4">Download My CV</h1>
+                    <p class="lead text-muted col-lg-10 mx-auto">
+                        My curriculum vitae provides a comprehensive overview of my education, experience, projects,
+                        and technical skills. It highlights my journey as an Master of Information Technology Student at Deakin University.
+                    </p>
+                </div>
+
+                <div class="card shadow-lg border-0 mb-4">
+                    <div class="card-body p-5">
+                        <!-- CV Preview -->
+                        <div class="cv-preview mb-4">
+                            <iframe src="projects/CV_Sophie Ngo_IT Student.pdf" 
+                                    style="width: 100%; height: 600px; border: 2px solid #dee2e6; border-radius: 0.5rem;"
+                                    title="CV Preview">
+                            </iframe>
+                        </div>
+
+                        <!-- Download Button -->
+                        <div class="d-flex justify-content-center">
+                            <a href="projects/CV_Sophie Ngo_IT Student.pdf" 
+                               class="btn btn-primary btn-lg px-5"
+                               download
+                               target="_blank">
+                                <i class="bi bi-download me-2"></i> Download PDF CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center text-muted small">
+                    <p class="mb-1">Last updated: October 2025</p>
+                    <p class="mb-0">File size: ~245 KB • PDF Format</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-top py-4">
+        <div class="container px-4 px-lg-5">
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+                <p class="text-muted mb-0">© 2025 Sophie Ngo</p>
+                <div class="d-flex gap-3">
+                    <a href="https://www.linkedin.com/in/callmesoffie/" target="_blank" class="text-muted hover-primary">
+                        <i class="bi bi-linkedin fs-5"></i>
+                    </a>
+                    <a href="mailto:sophiengo1811@gmail.com" class="text-muted hover-primary">
+                        <i class="bi bi-envelope fs-5"></i>
+                    </a>
+                    <a href="https://github.com/callmesoffie1811" target="_blank" class="text-muted hover-primary">
+                        <i class="bi bi-github fs-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
