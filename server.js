@@ -23,11 +23,14 @@ app.use(express.static(path.join(__dirname), {
     etag: true
 }));
 
-// Security headers
+// Security headers (except X-Frame-Options for PDF embedding)
 app.use((req, res, next) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
-    res.setHeader('X-Frame-Options', 'DENY');
     res.setHeader('X-XSS-Protection', '1; mode=block');
+    // Allow same-origin iframes for PDF preview
+    if (!req.path.endsWith('.pdf')) {
+        res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+    }
     next();
 });
 
@@ -35,8 +38,22 @@ app.use((req, res, next) => {
 // ROUTES
 // ========================================
 
-// Serve index.html for all routes (SPA behavior)
-app.get('*', (req, res) => {
+// Serve static files first (PDFs, images, CSS, JS)
+// This must come before the catch-all route
+app.use(express.static(path.join(__dirname), {
+    maxAge: '1d',
+    etag: true,
+    setHeaders: (res, filepath) => {
+        // Set proper content-type for PDFs
+        if (filepath.endsWith('.pdf')) {
+            res.setHeader('Content-Type', 'application/pdf');
+            res.setHeader('Content-Disposition', 'inline');
+        }
+    }
+}));
+
+// Serve index.html for HTML routes only (SPA behavior)
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 

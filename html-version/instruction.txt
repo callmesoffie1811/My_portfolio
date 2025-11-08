@@ -1,0 +1,6 @@
+Techstack:
+
+- Bootstrap
+- CSS, HTML, Javascript
+- Node.Javascript
+- Remove any unnessary/ duplicate files
